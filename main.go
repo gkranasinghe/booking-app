@@ -18,7 +18,7 @@ func main(){
 
 
 
-
+for {
 	var firstName string
 	var lastName string
 	var email string
@@ -51,5 +51,8 @@ fmt.Printf("the slice length %v\n",len(bookings))
 	remainingTickets = remainingTickets - uint(userTickets)
     fmt.Printf("%v tickets remaining\n",remainingTickets)
 	fmt.Printf("These are bookings %v\n  ",bookings)
+}
+
+
 }
 
